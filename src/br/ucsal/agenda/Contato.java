@@ -2,101 +2,93 @@ package br.ucsal.agenda;
 
 import java.util.Date;
 
+
 public class Contato implements IContato {
 
+	
+	String cpf, nome, email, numero,telefone, lougradouro, bairro, cidade;
+	Date data;
+	
 	@Override
 	public void setCpf(String cpf) {
-		// TODO Auto-generated method stub
+		this.cpf = cpf;
 	}
 
 	@Override
 	public String getCpf() {
-		
-		return null;
+		return cpf;
 	}
 
 	@Override
 	public void setNome(String nome) {
-		// TODO Auto-generated method stub
-		
+		this.nome = nome;
 	}
 
 	@Override
 	public String getNome() {
-		// TODO Auto-generated method stub
-		return null;
+		return nome;
 	}
 
 	@Override
 	public void setEmail(String email) {
-		// TODO Auto-generated method stub
-		
+		this.email = email;
 	}
 
 	@Override
 	public String getEmail() {
-		// TODO Auto-generated method stub
-		return null;
+		return email;
 	}
 
 	@Override
 	public void setTelefone(String telefone) {
-		// TODO Auto-generated method stub
-		
+		this.telefone = telefone;		
 	}
 
 	@Override
 	public String getTelefone() {
-		// TODO Auto-generated method stub
-		return null;
+		return telefone;
 	}
 
 	@Override
 	public void setLougradouro(String lougradouro) {
-		// TODO Auto-generated method stub
-		
+		this.lougradouro = lougradouro;		
 	}
 
 	@Override
 	public String getLougradouro() {
-		// TODO Auto-generated method stub
-		return null;
+		return lougradouro;
 	}
 
 	@Override
 	public void setNumero(String num) {
-		// TODO Auto-generated method stub
-		
+		this.numero = num;		
 	}
 
 	@Override
 	public String getNumero() {
-		// TODO Auto-generated method stub
-		return null;
+		return numero;
 	}
 
 	@Override
 	public void setBairro(String bairro) {
-		// TODO Auto-generated method stub
-		
+		this.bairro = bairro;
 	}
 
 	@Override
 	public String getBairro() {
-		// TODO Auto-generated method stub
-		return null;
+		return bairro;
 	}
 
 	@Override
 	public void setCidade(String cidade) {
 		// TODO Auto-generated method stub
-		
+		this.cidade = cidade;
 	}
 
 	@Override
 	public String getCidade() {
 		// TODO Auto-generated method stub
-		return null;
+		return cidade;
 	}
 
 	@Override
@@ -108,7 +100,7 @@ public class Contato implements IContato {
 	@Override
 	public Date getDataDeNascimento() {
 		// TODO Auto-generated method stub
-		return null;
+		return data;
 	}
 
 }

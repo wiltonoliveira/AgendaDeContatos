@@ -2,6 +2,11 @@ package br.ucsal.agenda;
 
 public class Agenda implements IAgenda{
 
+	public Agenda(){
+		 
+	}
+	
+	
 	@Override
 	public void inserir(Contato contato) {
 		// TODO Auto-generated method stub
